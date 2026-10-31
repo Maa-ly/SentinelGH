@@ -1,0 +1,132 @@
+SentinelGH Security Alerts - Week 8
+Nkabom Savings & Loans
+Generated: 2026-10-31 11:35
+============================================================
+
+Records loaded:  4948
+Rows skipped:    32
+Failed logins:   505
+Total alerts:    50
+
+BRUTE-FORCE ATTEMPTS (18)
+------------------------------------------------------------
+[HIGH] 2026-09-01 01:32  cust1100: 8 failed logins in 10 minutes from 103.152.118.71 (Vietnam)
+[HIGH] 2026-09-01 02:41  cust1224: 8 failed logins in 10 minutes from 103.152.118.4 (Vietnam)
+[HIGH] 2026-09-04 02:06  cust1147: 8 failed logins in 10 minutes from 91.240.118.172 (Ukraine)
+[HIGH] 2026-09-04 10:13  asarpong: 7 failed logins in 10 minutes from 197.251.154.29 (Ghana)
+[HIGH] 2026-09-04 23:06  cust1213: 11 failed logins in 10 minutes from 5.188.206.18 (Germany)
+[HIGH] 2026-09-05 23:10  cust1366: 10 failed logins in 10 minutes from 45.155.205.99 (Russia)
+[HIGH] 2026-09-06 01:26  cust1098: 8 failed logins in 10 minutes from 185.220.101.12 (Netherlands)
+[HIGH] 2026-09-06 11:34  equaye: 7 failed logins in 10 minutes from 197.251.157.22 (Ghana)
+[HIGH] 2026-09-07 02:22  cust1104: 12 failed logins in 10 minutes from 218.92.0.107 (China)
+[HIGH] 2026-09-08 02:50  cust1357: 11 failed logins in 10 minutes from 218.92.0.107 (China)
+[HIGH] 2026-09-08 12:05  smensah: 7 failed logins in 10 minutes from 41.215.191.95 (Ghana)
+[HIGH] 2026-09-11 23:09  cust1399: 9 failed logins in 10 minutes from 185.220.101.12 (Netherlands)
+[HIGH] 2026-09-16 01:30  cust1129: 11 failed logins in 10 minutes from 197.210.54.16 (Nigeria)
+[HIGH] 2026-09-20 23:34  cust1199: 10 failed logins in 10 minutes from 197.210.54.16 (Nigeria)
+[HIGH] 2026-09-22 02:24  cust1171: 9 failed logins in 10 minutes from 5.188.206.18 (Germany)
+[HIGH] 2026-09-22 02:33  cust1366: 6 failed logins in 10 minutes from 103.152.118.4 (Vietnam)
+[HIGH] 2026-09-27 23:40  cust1012: 9 failed logins in 10 minutes from 218.92.0.107 (China)
+[HIGH] 2026-09-29 16:27  skpodo: 7 failed logins in 10 minutes from 41.215.80.83 (Ghana)
+
+PASSWORD SPRAYING (1)
+------------------------------------------------------------
+[HIGH] 2026-09-18 02:10  many accounts: 45.155.205.233 (Russia) failed on 25 different accounts
+
+LOGINS FROM FOREIGN IP ADDRESSES (9)
+------------------------------------------------------------
+[MEDIUM] 2026-09-01 01:32  cust1100: 103.152.118.71 (Vietnam): 8 attempts, 0 successful, accounts: cust1100
+[CRITICAL] 2026-09-01 02:41  cust1224, cust1366, ikumi: 103.152.118.4 (Vietnam): 17 attempts, 3 successful, accounts: cust1224, cust1366, ikumi -> STAFF LOGGED IN: ikumi
+[CRITICAL] 2026-09-01 04:37  atetteh, cust1147: 91.240.118.172 (Ukraine): 11 attempts, 3 successful, accounts: atetteh, cust1147 -> STAFF LOGGED IN: atetteh
+[CRITICAL] 2026-09-03 22:52  cust1012, cust1104, cust1357, kdogbe: 218.92.0.107 (China): 36 attempts, 4 successful, accounts: cust1012, cust1104, cust1357, kdogbe -> STAFF LOGGED IN: kdogbe
+[CRITICAL] 2026-09-04 22:29  cust1366, psackey: 45.155.205.99 (Russia): 14 attempts, 4 successful, accounts: cust1366, psackey -> STAFF LOGGED IN: psackey
+[CRITICAL] 2026-09-04 23:06  cust1171, cust1213, jagyeman: 5.188.206.18 (Germany): 22 attempts, 2 successful, accounts: cust1171, cust1213, jagyeman -> STAFF LOGGED IN: jagyeman
+[MEDIUM] 2026-09-06 01:26  cust1098, cust1399: 185.220.101.12 (Netherlands): 17 attempts, 0 successful, accounts: cust1098, cust1399
+[MEDIUM] 2026-09-16 01:30  cust1129, cust1199: 197.210.54.16 (Nigeria): 21 attempts, 0 successful, accounts: cust1129, cust1199
+[MEDIUM] 2026-09-18 02:10  cust1021, cust1049, cust1059, cust1097, cust1164, cust1194, cust1199, cust1206, cust1224, cust1232, cust1256, cust1264, cust1283, cust1295, cust1299, cust1306, cust1318, cust1326, cust1328, cust1348, cust1366, cust1369, cust1378, cust1386, cust1391: 45.155.205.233 (Russia): 25 attempts, 0 successful, accounts: cust1021, cust1049, cust1059, cust1097, cust1164, cust1194, cust1199, cust1206, cust1224, cust1232, cust1256, cust1264, cust1283, cust1295, cust1299, cust1306, cust1318, cust1326, cust1328, cust1348, cust1366, cust1369, cust1378, cust1386, cust1391
+
+STAFF LOGINS BETWEEN 10PM AND 5AM (22)
+------------------------------------------------------------
+[HIGH] 2026-09-01 04:37  atetteh: staff login at 04:37 from 91.240.118.172 (Ukraine)
+[MEDIUM] 2026-09-02 00:00  skpodo: staff login at 00:00 from 41.215.194.56 (Ghana)
+[HIGH] 2026-09-03 22:52  kdogbe: staff login at 22:52 from 218.92.0.107 (China)
+[HIGH] 2026-09-04 22:29  psackey: staff login at 22:29 from 45.155.205.99 (Russia)
+[HIGH] 2026-09-09 04:42  ikumi: staff login at 04:42 from 103.152.118.4 (Vietnam)
+[HIGH] 2026-09-10 22:50  psackey: staff login at 22:50 from 45.155.205.99 (Russia)
+[HIGH] 2026-09-12 02:38  ikumi: staff login at 02:38 from 103.152.118.4 (Vietnam)
+[HIGH] 2026-09-17 23:43  jagyeman: staff login at 23:43 from 5.188.206.18 (Germany)
+[MEDIUM] 2026-09-18 00:53  aalhassan: staff login at 00:53 from 196.216.75.218 (Ghana)
+[HIGH] 2026-09-18 03:27  psackey: staff login at 03:27 from 45.155.205.99 (Russia)
+[HIGH] 2026-09-18 23:49  kdogbe: staff login at 23:49 from 218.92.0.107 (China)
+[HIGH] 2026-09-19 04:33  jagyeman: staff login at 04:33 from 5.188.206.18 (Germany)
+[HIGH] 2026-09-20 04:17  psackey: staff login at 04:17 from 45.155.205.99 (Russia)
+[HIGH] 2026-09-21 02:40  atetteh: staff login at 02:40 from 91.240.118.172 (Ukraine)
+[HIGH] 2026-09-22 00:27  atetteh: staff login at 00:27 from 91.240.118.172 (Ukraine)
+[MEDIUM] 2026-09-22 02:47  jboateng: staff login at 02:47 from 41.66.174.124 (Ghana)
+[HIGH] 2026-09-25 01:22  kdogbe: staff login at 01:22 from 218.92.0.107 (China)
+[MEDIUM] 2026-09-25 02:51  gkpodo: staff login at 02:51 from 154.160.255.232 (Ghana)
+[MEDIUM] 2026-09-26 22:21  etetteh: staff login at 22:21 from 41.215.125.198 (Ghana)
+[HIGH] 2026-09-28 03:45  kdogbe: staff login at 03:45 from 218.92.0.107 (China)
+[HIGH] 2026-09-29 04:39  ikumi: staff login at 04:39 from 103.152.118.4 (Vietnam)
+[MEDIUM] 2026-09-30 03:56  kdogbe: staff login at 03:56 from 102.176.133.161 (Ghana)
+
+TOP 10 ACCOUNTS BY FAILED LOGINS
+------------------------------------------------------------
+cust1366         19
+cust1104         12
+cust1213         11
+cust1098         11
+cust1357         11
+cust1129         11
+cust1199         11
+cust1224         10
+cust1171         10
+asarpong          9
+
+TOP 10 IP ADDRESSES BY FAILED LOGINS
+------------------------------------------------------------
+218.92.0.107        32
+45.155.205.233      25
+197.210.54.16       21
+5.188.206.18        20
+185.220.101.12      17
+103.152.118.4       14
+45.155.205.99       10
+103.152.118.71       8
+91.240.118.172       8
+197.251.154.29       7
+
+SKIPPED ROWS (32)
+------------------------------------------------------------
+line 647: missing username  ->  2026-09-04 10:32:00,,41.66.172.121,Ghana,Takoradi,USSD,SUCCESS
+line 745: duplicate row  ->  2026-09-04 16:35:00,ksackey,197.251.22.107,Ghana,Kumasi,staff,SUCCESS
+line 779: duplicate row  ->  2026-09-04 19:37:00,cust1165,197.251.133.189,Ghana,Takoradi,web,SUCCESS
+line 846: missing timestamp  ->  ,cust1355,41.66.234.189,Ghana,Accra,USSD,SUCCESS
+line 968: bad timestamp '2026/09/31 10:15'  ->  2026/09/31 10:15,cust1179,41.66.221.88,Ghana,Accra,web,FAIL
+line 973: duplicate row  ->  2026-09-07 07:42:00,cust1257,196.216.193.63,Ghana,Takoradi,web,FAIL
+line 1081: duplicate row  ->  2026-09-07 15:12:00,cust1210,196.216.119.58,Ghana,Takoradi,web,SUCCESS
+line 1372: duplicate row  ->  2026-09-09 08:30:00,smensah,197.251.71.111,Ghana,Accra,staff,SUCCESS
+line 1547: duplicate row  ->  2026-09-09 21:48:00,cust1286,154.160.207.188,Ghana,Accra,USSD,SUCCESS
+line 1615: duplicate row  ->  2026-09-10 11:26:00,aalhassan,196.216.75.218,Ghana,Accra,staff,SUCCESS
+line 1791: unknown status 'UNKNOWN'  ->  2026-09-11 09:02:00,cust1327,41.66.168.18,Ghana,Accra,web,UNKNOWN
+line 1808: bad timestamp '2026-09-1x 09:30:00'  ->  2026-09-1x 09:30:00,jmahama,154.160.218.82,Ghana,Takoradi,staff,SUCCESS
+line 1985: missing username  ->  2026-09-12 13:27:00,,197.251.3.235,Ghana,Kumasi,web,SUCCESS
+line 2427: duplicate row  ->  2026-09-15 17:25:00,cust1034,102.176.92.104,Ghana,Kumasi,USSD,SUCCESS
+line 2461: bad timestamp 'N/A'  ->  N/A,cust1349,197.251.135.127,Ghana,Takoradi,web,SUCCESS
+line 2580: duplicate row  ->  2026-09-16 13:19:00,cust1394,154.160.251.43,Ghana,Accra,USSD,SUCCESS
+line 2600: missing ip_address  ->  2026-09-16 15:01:00,cust1004,,Ghana,Kumasi,web,SUCCESS
+line 2730: missing ip_address  ->  2026-09-17 10:31:00,cust1160,,Ghana,Kumasi,web,SUCCESS
+line 2740: duplicate row  ->  2026-09-17 11:13:00,cust1358,197.251.42.66,Ghana,Kumasi,web,FAIL
+line 2897: duplicate row  ->  2026-09-18 02:15:45,cust1318,45.155.205.233,Russia,Accra,web,FAIL
+line 3155: missing username  ->  2026-09-20 06:10:00,,196.216.32.203,Ghana,Kumasi,web,SUCCESS
+line 3648: unknown status 'UNKNOWN'  ->  2026-09-22 21:32:00,cust1321,41.66.163.55,Ghana,Accra,web,UNKNOWN
+line 3671: bad timestamp '2026-09-1x 09:30:00'  ->  2026-09-1x 09:30:00,jagyeman,41.66.192.198,Ghana,Takoradi,staff,SUCCESS
+line 3743: duplicate row  ->  2026-09-23 13:18:00,cust1059,154.160.144.16,Ghana,Kumasi,web,SUCCESS
+line 3799: missing timestamp  ->  ,cust1190,102.176.250.224,Ghana,Kumasi,web,SUCCESS
+line 3895: duplicate row  ->  2026-09-24 09:53:00,magbeko,102.176.245.97,Ghana,Accra,staff,SUCCESS
+line 4347: missing username  ->  2026-09-27 16:29:00,,154.160.158.23,Ghana,Kumasi,web,FAIL
+line 4381: duplicate row  ->  2026-09-28 06:09:00,cust1343,196.216.121.235,Ghana,Accra,web,SUCCESS
+line 4412: missing username  ->  2026-09-28 08:59:00,,41.66.120.114,Ghana,Accra,USSD,SUCCESS
+line 4772: duplicate row  ->  2026-09-29 21:32:00,cust1112,154.160.66.206,Ghana,Takoradi,web,SUCCESS
+line 4860: duplicate row  ->  2026-09-30 12:05:00,cust1092,41.215.9.24,Ghana,Kumasi,web,SUCCESS
+line 4954: missing username  ->  2026-09-30 18:32:00,,197.251.134.89,Ghana,Kumasi,web,SUCCESS

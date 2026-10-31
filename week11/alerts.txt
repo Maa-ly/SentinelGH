@@ -1,0 +1,103 @@
+SentinelGH security findings
+Alerts: 66 | Skipped rows: 32
+
+[HIGH] 2026-09-01 01:32 BRUTE FORCE | cust1100: 8 failed logins in 10 minutes from 103.152.118.71 (Vietnam)
+[MEDIUM] 2026-09-01 01:32 FOREIGN IP | cust1100: 103.152.118.71 (Vietnam): 8 attempts, 0 successful, accounts: cust1100
+[HIGH] 2026-09-01 01:34 REPEATED LOCKOUT | cust1100: Three lockouts within ten minutes
+[HIGH] 2026-09-01 02:41 BRUTE FORCE | cust1224: 8 failed logins in 10 minutes from 103.152.118.4 (Vietnam)
+[CRITICAL] 2026-09-01 02:41 FOREIGN IP | cust1224, cust1366, ikumi: 103.152.118.4 (Vietnam): 17 attempts, 3 successful, accounts: cust1224, cust1366, ikumi -> STAFF LOGGED IN: ikumi
+[HIGH] 2026-09-01 02:43 REPEATED LOCKOUT | cust1224: Three lockouts within ten minutes
+[HIGH] 2026-09-01 04:37 OFF HOURS | atetteh: Staff access from 91.240.118.172 (Ukraine)
+[CRITICAL] 2026-09-01 04:37 FOREIGN IP | atetteh, cust1147: 91.240.118.172 (Ukraine): 11 attempts, 3 successful, accounts: atetteh, cust1147 -> STAFF LOGGED IN: atetteh
+[MEDIUM] 2026-09-02 00:00 OFF HOURS | skpodo: Staff access from 41.215.194.56 (Ghana)
+[HIGH] 2026-09-03 22:52 OFF HOURS | kdogbe: Staff access from 218.92.0.107 (China)
+[CRITICAL] 2026-09-03 22:52 FOREIGN IP | cust1012, cust1104, cust1357, kdogbe: 218.92.0.107 (China): 36 attempts, 4 successful, accounts: cust1012, cust1104, cust1357, kdogbe -> STAFF LOGGED IN: kdogbe
+[HIGH] 2026-09-04 02:06 BRUTE FORCE | cust1147: 8 failed logins in 10 minutes from 91.240.118.172 (Ukraine)
+[HIGH] 2026-09-04 02:08 REPEATED LOCKOUT | cust1147: Three lockouts within ten minutes
+[HIGH] 2026-09-04 10:13 BRUTE FORCE | asarpong: 7 failed logins in 10 minutes from 197.251.154.29 (Ghana)
+[HIGH] 2026-09-04 22:29 OFF HOURS | psackey: Staff access from 45.155.205.99 (Russia)
+[CRITICAL] 2026-09-04 22:29 FOREIGN IP | cust1366, psackey: 45.155.205.99 (Russia): 14 attempts, 4 successful, accounts: cust1366, psackey -> STAFF LOGGED IN: psackey
+[HIGH] 2026-09-04 23:06 BRUTE FORCE | cust1213: 11 failed logins in 10 minutes from 5.188.206.18 (Germany)
+[CRITICAL] 2026-09-04 23:06 FOREIGN IP | cust1171, cust1213, jagyeman: 5.188.206.18 (Germany): 22 attempts, 2 successful, accounts: cust1171, cust1213, jagyeman -> STAFF LOGGED IN: jagyeman
+[HIGH] 2026-09-04 23:08 REPEATED LOCKOUT | cust1213: Three lockouts within ten minutes
+[HIGH] 2026-09-04 23:10 REPEATED LOCKOUT | cust1213: Three lockouts within ten minutes
+[HIGH] 2026-09-05 23:10 BRUTE FORCE | cust1366: 10 failed logins in 10 minutes from 45.155.205.99 (Russia)
+[HIGH] 2026-09-05 23:12 REPEATED LOCKOUT | cust1366: Three lockouts within ten minutes
+[HIGH] 2026-09-06 01:26 BRUTE FORCE | cust1098: 8 failed logins in 10 minutes from 185.220.101.12 (Netherlands)
+[MEDIUM] 2026-09-06 01:26 FOREIGN IP | cust1098, cust1399: 185.220.101.12 (Netherlands): 17 attempts, 0 successful, accounts: cust1098, cust1399
+[HIGH] 2026-09-06 01:28 REPEATED LOCKOUT | cust1098: Three lockouts within ten minutes
+[HIGH] 2026-09-06 11:34 BRUTE FORCE | equaye: 7 failed logins in 10 minutes from 197.251.157.22 (Ghana)
+[HIGH] 2026-09-07 02:22 BRUTE FORCE | cust1104: 12 failed logins in 10 minutes from 218.92.0.107 (China)
+[HIGH] 2026-09-07 02:24 REPEATED LOCKOUT | cust1104: Three lockouts within ten minutes
+[HIGH] 2026-09-07 02:26 REPEATED LOCKOUT | cust1104: Three lockouts within ten minutes
+[HIGH] 2026-09-08 02:50 BRUTE FORCE | cust1357: 11 failed logins in 10 minutes from 218.92.0.107 (China)
+[HIGH] 2026-09-08 02:52 REPEATED LOCKOUT | cust1357: Three lockouts within ten minutes
+[HIGH] 2026-09-08 02:54 REPEATED LOCKOUT | cust1357: Three lockouts within ten minutes
+[HIGH] 2026-09-08 12:05 BRUTE FORCE | smensah: 7 failed logins in 10 minutes from 41.215.191.95 (Ghana)
+[HIGH] 2026-09-09 04:42 OFF HOURS | ikumi: Staff access from 103.152.118.4 (Vietnam)
+[HIGH] 2026-09-10 22:50 OFF HOURS | psackey: Staff access from 45.155.205.99 (Russia)
+[HIGH] 2026-09-11 23:09 BRUTE FORCE | cust1399: 9 failed logins in 10 minutes from 185.220.101.12 (Netherlands)
+[HIGH] 2026-09-11 23:11 REPEATED LOCKOUT | cust1399: Three lockouts within ten minutes
+[HIGH] 2026-09-12 02:38 OFF HOURS | ikumi: Staff access from 103.152.118.4 (Vietnam)
+[HIGH] 2026-09-16 01:30 BRUTE FORCE | cust1129: 11 failed logins in 10 minutes from 197.210.54.16 (Nigeria)
+[MEDIUM] 2026-09-16 01:30 FOREIGN IP | cust1129, cust1199: 197.210.54.16 (Nigeria): 21 attempts, 0 successful, accounts: cust1129, cust1199
+[HIGH] 2026-09-16 01:32 REPEATED LOCKOUT | cust1129: Three lockouts within ten minutes
+[HIGH] 2026-09-16 01:34 REPEATED LOCKOUT | cust1129: Three lockouts within ten minutes
+[HIGH] 2026-09-17 23:43 OFF HOURS | jagyeman: Staff access from 5.188.206.18 (Germany)
+[MEDIUM] 2026-09-18 00:53 OFF HOURS | aalhassan: Staff access from 196.216.75.218 (Ghana)
+[MEDIUM] 2026-09-18 02:10 FOREIGN IP | cust1021, cust1049, cust1059, cust1097, cust1164, cust1194, cust1199, cust1206, cust1224, cust1232, cust1256, cust1264, cust1283, cust1295, cust1299, cust1306, cust1318, cust1326, cust1328, cust1348, cust1366, cust1369, cust1378, cust1386, cust1391: 45.155.205.233 (Russia): 25 attempts, 0 successful, accounts: cust1021, cust1049, cust1059, cust1097, cust1164, cust1194, cust1199, cust1206, cust1224, cust1232, cust1256, cust1264, cust1283, cust1295, cust1299, cust1306, cust1318, cust1326, cust1328, cust1348, cust1366, cust1369, cust1378, cust1386, cust1391
+[HIGH] 2026-09-18 03:27 OFF HOURS | psackey: Staff access from 45.155.205.99 (Russia)
+[HIGH] 2026-09-18 23:49 OFF HOURS | kdogbe: Staff access from 218.92.0.107 (China)
+[HIGH] 2026-09-19 04:33 OFF HOURS | jagyeman: Staff access from 5.188.206.18 (Germany)
+[HIGH] 2026-09-20 04:17 OFF HOURS | psackey: Staff access from 45.155.205.99 (Russia)
+[HIGH] 2026-09-20 23:34 BRUTE FORCE | cust1199: 10 failed logins in 10 minutes from 197.210.54.16 (Nigeria)
+[HIGH] 2026-09-20 23:36 REPEATED LOCKOUT | cust1199: Three lockouts within ten minutes
+[HIGH] 2026-09-21 02:40 OFF HOURS | atetteh: Staff access from 91.240.118.172 (Ukraine)
+[HIGH] 2026-09-22 00:27 OFF HOURS | atetteh: Staff access from 91.240.118.172 (Ukraine)
+[HIGH] 2026-09-22 02:24 BRUTE FORCE | cust1171: 9 failed logins in 10 minutes from 5.188.206.18 (Germany)
+[HIGH] 2026-09-22 02:26 REPEATED LOCKOUT | cust1171: Three lockouts within ten minutes
+[HIGH] 2026-09-22 02:33 BRUTE FORCE | cust1366: 6 failed logins in 10 minutes from 103.152.118.4 (Vietnam)
+[MEDIUM] 2026-09-22 02:47 OFF HOURS | jboateng: Staff access from 41.66.174.124 (Ghana)
+[HIGH] 2026-09-25 01:22 OFF HOURS | kdogbe: Staff access from 218.92.0.107 (China)
+[MEDIUM] 2026-09-25 02:51 OFF HOURS | gkpodo: Staff access from 154.160.255.232 (Ghana)
+[MEDIUM] 2026-09-26 22:21 OFF HOURS | etetteh: Staff access from 41.215.125.198 (Ghana)
+[HIGH] 2026-09-27 23:40 BRUTE FORCE | cust1012: 9 failed logins in 10 minutes from 218.92.0.107 (China)
+[HIGH] 2026-09-27 23:42 REPEATED LOCKOUT | cust1012: Three lockouts within ten minutes
+[HIGH] 2026-09-28 03:45 OFF HOURS | kdogbe: Staff access from 218.92.0.107 (China)
+[HIGH] 2026-09-29 04:39 OFF HOURS | ikumi: Staff access from 103.152.118.4 (Vietnam)
+[HIGH] 2026-09-29 16:27 BRUTE FORCE | skpodo: 7 failed logins in 10 minutes from 41.215.80.83 (Ghana)
+[MEDIUM] 2026-09-30 03:56 OFF HOURS | kdogbe: Staff access from 102.176.133.161 (Ghana)
+
+Skipped records
+Line 647: missing username
+Line 745: duplicate row
+Line 779: duplicate row
+Line 846: missing timestamp
+Line 968: bad timestamp '2026/09/31 10:15'
+Line 973: duplicate row
+Line 1081: duplicate row
+Line 1372: duplicate row
+Line 1547: duplicate row
+Line 1615: duplicate row
+Line 1791: unknown status 'UNKNOWN'
+Line 1808: bad timestamp '2026-09-1x 09:30:00'
+Line 1985: missing username
+Line 2427: duplicate row
+Line 2461: bad timestamp 'N/A'
+Line 2580: duplicate row
+Line 2600: missing ip_address
+Line 2730: missing ip_address
+Line 2740: duplicate row
+Line 2897: duplicate row
+Line 3155: missing username
+Line 3648: unknown status 'UNKNOWN'
+Line 3671: bad timestamp '2026-09-1x 09:30:00'
+Line 3743: duplicate row
+Line 3799: missing timestamp
+Line 3895: duplicate row
+Line 4347: missing username
+Line 4381: duplicate row
+Line 4412: missing username
+Line 4772: duplicate row
+Line 4860: duplicate row
+Line 4954: missing username

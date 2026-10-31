@@ -1,0 +1,31 @@
+SentinelGH — Draft Daily Incident Report
+Nkabom Savings & Loans
+Report date: 2026-09-30 (latest date in the supplied log)
+
+Daily activity: 205 attempts; 10 rejected attempts.
+Daily failure rate: 4.88%.
+Alerts starting today: 1. Alerts may describe windows crossing midnight.
+
+Daily findings (up to five):
+[MEDIUM] 2026-09-30 03:56 OFF HOURS | kdogbe: Staff access from 102.176.133.161 (Ghana)
+
+Whole-file context (not daily totals):
+Coverage: 2026-09-01 to 2026-09-30; 4948 cleaned attempts.
+Cleaning: 16 invalid rows and 16 duplicate valid rows removed.
+Average rejected attempts per user: 1.10, including users with zero failures.
+Highest known-branch failure rate: Takoradi, 11.59%.
+Unknown branch rows: 4; excluded from the named-branch comparison.
+Staff audit: 43 of 60 accounts score below 6/6.
+Top candidate attacking IPs (ranked by rejected attempts):
+  218.92.0.107: 32
+  45.155.205.233: 25
+  197.210.54.16: 21
+
+Recommended actions:
+1. Ask staff to confirm unusual night or foreign access; investigate affected accounts.
+2. Replace fictional practice passwords that fail the policy and consider multi-factor login.
+3. Review high-failure IPs and repeated lockouts before deciding on restrictions.
+
+Notes: FAIL and LOCKED both count as rejected attempts. A foreign country comes
+from the supplied CSV; it is not an independent location check. Alerts are leads,
+not proof of an attack. Charts cover the whole file. Unknown countries are not foreign.
